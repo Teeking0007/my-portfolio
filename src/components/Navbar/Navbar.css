@@ -1,0 +1,30 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    padding: .2rem 7rem;
+    align-items: center;
+    background: transparent;
+}
+nav span {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: -400px;
+}
+nav ul li {
+    padding: 0 .4rem;
+    text-align: none;
+}
+.icon {
+    font-size: 1.5rem;
+}

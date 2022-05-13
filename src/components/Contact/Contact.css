@@ -1,0 +1,67 @@
+.c {
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+.c-l {
+    width: 55%;
+    height: 60vh;
+    
+    justify-content: center;
+    align-items: center;
+    padding: 100px 80px;
+    
+}
+.t-l p {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.c-r {
+    width: 45%;
+    height: 60vh;
+    padding: 40px 90px;
+    background-color: #F32424;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.c-r form input {
+    width: 400px;
+    margin: 10px 0;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    
+}
+.c-r form input::placeholder {
+    color: white;
+}
+.c-r form textarea {
+    width: 400px;
+    outline: none;
+}
+.c-r form button {
+    background-color: #F32424;
+    padding: 10px 30px;
+    margin: 10px 0;
+    color: white;
+    border: 1px solid white;
+
+}
+.c-r form button:hover {
+    color: #F32424;
+    background-color: white;
+}
+.call {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+.call-text {
+    margin-left: 20px;
+}

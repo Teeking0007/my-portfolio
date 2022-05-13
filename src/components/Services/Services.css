@@ -1,0 +1,25 @@
+.s {
+    width: 90%;
+    margin: 40px auto;
+}
+.s-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+}
+.s-card {
+    width: 330px;
+    height: 180px;
+    margin: 10px;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    font-size: .8rem;
+}
+.s-card img {
+    height: 50px;
+    width: 50px;
+}
