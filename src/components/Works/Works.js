@@ -20,27 +20,26 @@ const Works = () => {
                 <button>Hire Me</button>
                 </div>
             </div>
+
             <div className='w-r'>
                 <div className='w-c'>
                     <div className='w-i'>
-                        <img src={upwork} alt='upwork' />
+                        <img src={upwork} alt='upwork' style={{transform: 'scale(0.9)'}} />
                     </div>
                     <div className='w-i'>
-                    <img src={fiverr} alt='fiverr' style={{transform: 'scale(0.1)'}}/>
+                        <img src={fiverr} alt='fiverr' style={{transform: 'scale(0.15)'}}/>
                     </div>
                     <div className='w-i'>
-                    <img src={woo} alt='woo' style={{transform: 'scale(0.7)'}}/>
+                        <img src={woo} alt='woo' style={{transform: 'scale(0.7)'}}/>
+                    </div><div className='w-i'>
+                        <img src={wordpress} alt='fiverr' style={{transform: 'scale(0.15)'}}/>
                     </div>
-                    
-                    <div className='w-i'>
-                    <img src={wordpress} alt='fiverr' style={{transform: 'scale(0.15)'}}/>
-                    </div>
-                    
                 </div>
                 <div className='w-s'>
-                    <img src={shopping} alt='shopping' style={{transform: 'scale(0.18)'}}/>
+                    <img src={shopping} alt='shopping' style={{transform: 'scale(0.15)'}}/>
                     </div>
             </div>
+
         </div>
      );
 }

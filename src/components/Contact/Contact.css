@@ -2,24 +2,30 @@
     display: flex;
     width: 100%;
     margin: 0;
+    flex-wrap: wrap;
 }
 .c-l {
-    width: 55%;
-    height: 60vh;
-    
+    flex: 1.7;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 80px;
+    
     
 }
 .t-l p {
     font-size: 2.5rem;
     font-weight: bold;
+    text-align: left;
+}
+.c-c-t{
+    padding: 0;
+    margin: 0;
 }
 .c-r {
-    width: 45%;
-    height: 60vh;
-    padding: 40px 90px;
+    flex: 1;
+    display: flex;
     background-color: #F32424;
     color: white;
     display: flex;
@@ -27,10 +33,12 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 20px 40px;
 }
 .c-r form input {
-    width: 400px;
+    width: 300px;
     margin: 10px 0;
+    padding: 5px 5px;
     background: transparent;
     border: none;
     border-bottom: 1px solid white;
@@ -42,7 +50,7 @@
     color: white;
 }
 .c-r form textarea {
-    width: 400px;
+    width: 300px;
     outline: none;
 }
 .c-r form button {

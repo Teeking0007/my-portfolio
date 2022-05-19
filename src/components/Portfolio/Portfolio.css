@@ -1,6 +1,7 @@
 .p {
      width: 90%;
      margin: 40px auto;
+     padding: 15px;
  }
  .pp-con {
      width: 100%;
@@ -12,7 +13,7 @@
  }
  .pp-c {
      width: 30%;
-     height: 30vh;
+     height: 200px;
      margin: 10px;
      border: 1px solid rgb(243, 242, 242);
      overflow: hidden;

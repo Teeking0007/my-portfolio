@@ -21,8 +21,8 @@ function App() {
       <Portfolio/>
       <Testimonies/>
       <Contact />
-      <Footer/>
-    </div>
+      <Footer/> 
+    </div>  
   );
 }
 

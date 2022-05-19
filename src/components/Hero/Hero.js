@@ -18,6 +18,7 @@ const Hero = () => {
                             <FaLinkedin/>
                             <FaTwitter style={{marginLeft: '10px'}}/>
                         </div>
+                        <button className="hero-button">Hire Me</button>
                     </div>
                 </div>
                 <div className="hero-right">

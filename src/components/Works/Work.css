@@ -1,26 +1,26 @@
+
 .w {
     width: 90%;
-    margin: 5px auto;
-    padding: 5px;
+    margin: 1px auto;
+    padding: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    overflow: hidden;
 }
-
 .w-l {
     display: flex;
-    width: 30%;
+    flex: 1;
     flex-direction: column;
     margin: 10px;
     
 }
-
 .w-l h2 {
     font-size: 1.8rem;
     font-family: sans-serif;
 }
-span {
+.w-l span {
     color: #F32424;
 }
 .w-l button {
@@ -40,19 +40,17 @@ span {
 }
 .w-r {
     display: flex;
-    width: 65%;
-    padding: 40px;
+    flex: 1;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin-top: 20px;
+    padding: 15px;
     position: relative;
 }
 .w-c {
-    height: 18rem;
-    width: 18rem;
+    height: 16rem;
+    width: 16rem;
     border-radius: 50%;
-    left: 3rem;
-    top: 2rem;
     position: relative;
     box-shadow: 0px 0px 15px 1px;
     animation-name: spin;
@@ -60,7 +58,6 @@ span {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
-
 @keyframes spin {
     from {
         transform: rotate(0deg);
@@ -69,11 +66,10 @@ span {
         transform: rotate(360deg);
     }
 }
-
 .w-i {
     position: absolute;
-    height: 8rem;
-    width: 8rem;
+    height: 7rem;
+    width: 7rem;
     background-color: white;
     border-radius: 50%;
     box-shadow: 0px 0px 15px 1px;
@@ -85,30 +81,28 @@ span {
 }
 .w-c > :nth-child(1) {
     transform: scale(0.7);
-    top: -4rem;
-    left: 5rem;
+    top: -2rem;
+    left: 6rem;
 }
 .w-c > :nth-child(2) {
     transform: scale(0.7);
     top: 5rem;
-    left: -4rem;
+    left: -3rem;
 }
 .w-c > :nth-child(3) {
     transform: scale(0.7);
     top: 5rem;
-    left: 14rem;
+    left: 12rem;
 }
-
 .w-c > :nth-child(4) {
     transform: scale(0.7);
-    top: 13rem;
+    top: 12rem;
     left: 5rem;
 }
-
 .w-s{
     position: absolute;
-    height: 8rem;
-    width: 8rem;
+    height: 7rem;
+    width: 7rem;
     border-radius: 50%;
     box-shadow: 0px 0px 15px 1px;
     z-index: 2;
@@ -117,7 +111,5 @@ span {
     justify-content: center;
     position: absolute;
     transform: scale(0.7);
-    top: 9rem;
-    left: 22rem;
     background-color: #f32424b7;
 }
