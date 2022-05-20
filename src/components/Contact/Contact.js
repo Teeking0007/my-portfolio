@@ -16,6 +16,9 @@ const [form, setForm] = useState({
 })
 const sumbit = (e) =>{
     e.preventDefault();
+    if (form.name === '' || form.subject === '' || form.subject === '' || form.message === '' ) {
+        alert('All fields is required')
+    } else {
     emailjs.sendForm('teeking', 'template_9iheiib', formRef.current, 'JLBY-w0xGtDoJKwv3')
       .then((result) => {
           console.log(result.text);
@@ -27,7 +30,7 @@ const sumbit = (e) =>{
       }, (error) => {
           console.log(error.text);
       });
-      
+    }
 }
 
     return ( 
