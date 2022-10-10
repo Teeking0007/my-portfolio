@@ -7,7 +7,7 @@ import { SiJavascript, SiSolidity } from 'react-icons/si';
 
 const Skills = () => {
     return ( 
-        <div className="skills">
+        <div className="skills" id='skills'>
             <h1>My Skills</h1>
             <p>Here are some skill I have</p>
             <div className='card-container'>

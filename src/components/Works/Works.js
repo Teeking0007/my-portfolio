@@ -9,7 +9,7 @@ import wordpress from '../../assests/wordpress.png';
 
 const Works = () => {
     return ( 
-        <div className='w'>
+        <div className='w' id='works'>
             <div className='w-l'>
                 <h2>Works for All these <br/>
                 <span>Brands & Clients</span>

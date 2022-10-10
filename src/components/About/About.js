@@ -4,7 +4,7 @@ import Resume from '../../assests/Resume.pdf'
 
 const About = () => {
     return ( 
-        <div className='about'>
+        <div className='about' id='about'>
             <h1>About Me</h1>
             <p>Oduola Timothy is a paasionate and goal driven 
                 <br/>techprenuer whose interest is in using technology to 

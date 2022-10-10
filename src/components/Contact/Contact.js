@@ -34,7 +34,7 @@ const sumbit = (e) =>{
 }
 
     return ( 
-        <div className='c'>
+        <div className='c' id='contact'>
             <div className='c-l'>
                <div className='c-c-t'>
                <h2>Get in Touch.</h2>

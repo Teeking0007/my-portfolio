@@ -6,13 +6,16 @@ nav {
     padding: .2rem 3rem;
     align-items: center;
     background: transparent;
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 .nav-con {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex: 5;
+    margin-left: 20px;
 }
 .logo {
     padding: 0;
@@ -21,6 +24,7 @@ nav {
     font-weight: bold;
     flex: 1;
     color: #F32424;
+    cursor: pointer;
 }
 .nav-child {
     display: flex;
@@ -38,6 +42,9 @@ nav {
     font-size: 1.5rem;
     display: flex;
     justify-content: flex-end;
+}
+.icon a {
+    text-decoration: none;
 }
 .mobile-icon {
     display: none;

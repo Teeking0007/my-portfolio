@@ -11,7 +11,7 @@ import { portfolio } from '../../Data';
 const Portfolio = () => {
     
     return ( 
-        <div className="p">
+        <div className="p" id='projects'>
           <h1>Milestones of Projects</h1>
           <p>Here are some of the projects I have worked on</p>
           <div className='pp-con'>

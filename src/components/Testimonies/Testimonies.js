@@ -7,7 +7,7 @@ import manager from '../../assests/manager.png';
 
 const Testimonies = () => {
     return ( 
-        <div className='t'>
+        <div className='t' id='testimonies'>
             <div className='t-l'>
                <p> Testimonies &
                     Recommendations </p>
