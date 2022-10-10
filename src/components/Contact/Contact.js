@@ -40,8 +40,8 @@ const sumbit = (e) =>{
                <h2>Get in Touch.</h2>
                <p>Kindly forward all your enquiries to me</p>
                <div className="icons">
-                    <FaLinkedin/>
-                    <FaTwitter style={{marginLeft: '10px'}}/>
+               <a href='https://www.linkedin.com/in/oduola-timothy/' target='_blank' rel='noreferrer' ><FaLinkedin/></a>
+                        <a href='https://twitter.com/teeking007' target='_blank' rel='noreferrer' ><FaTwitter style={{marginLeft: '10px'}}/></a>
                 </div>
                </div>
                

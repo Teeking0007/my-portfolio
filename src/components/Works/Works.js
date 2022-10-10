@@ -4,7 +4,7 @@ import woo from '../../assests/woo.png';
 import shopping from '../../assests/shopping.png';
 import upwork from '../../assests/upwork.png';
 import wordpress from '../../assests/wordpress.png';
-
+import { Link } from 'react-scroll'
 
 
 const Works = () => {
@@ -17,7 +17,9 @@ const Works = () => {
                 <p>I have worked and still working with many of these brands and freelancing website, delivering a top notch project with good feedbacks and review </p>
                 
                 <div>
-                <button>Hire Me</button>
+                <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-100}>
+                            <button >Hire Me</button>
+                </Link>
                 </div>
             </div>
 
