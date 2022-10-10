@@ -15,7 +15,7 @@ const Hero = () => {
             <p>Hello There</p>
             <h5>I am Oduola Timothy</h5>
             <h4>
-              A Top-Notch Web Designer, <br /> Frontend Developer and Web3
+              A Top-Notch Full stack Developer, <br /> Web Designer and Web3
               Developer
             </h4>
             <div className="icons">
