@@ -8,6 +8,12 @@ import automatediscord from './assests/automatediscord.png';
 import buzymart from './assests/buzymart.png';
 import reimaginedclub from './assests/reimaginedclub.png';
 import restaurant from './assests/restaurant-website.png';
+import drtessy from './assests/drtessy.png';
+import first from './assests/first.png';
+import julalex from './assests/julalex.png';
+import ngo from './assests/ngo.png';
+import oabayomi from './assests/oabayomi.png';
+import rafdental from './assests/rafdental.png';
 import weather from './assests/weather-app.png';
 import nft from './assests/nft-collection.png';
 
@@ -64,6 +70,30 @@ export const portfolio = [
     {
         img: buzymart,
         link: 'https://www.buzymart.com/'
+    },
+    {
+        img: rafdental,
+        link: 'https://www.rafdental.com/'
+    },
+    {
+        img: oabayomi,
+        link: 'https://www.oabayomiandassociates.com/'
+    },
+    {
+        img: first,
+        link: 'https://firstlaurel.com/'
+    },
+    {
+        img: drtessy,
+        link: 'https://drtessysvet.com/'
+    },
+    {
+        img: ngo,
+        link: 'https://frash-i.org/Relief-agents/'
+    },
+    {
+        img: julalex,
+        link: 'http://julalexta.com/'
     },
     {
         img: reimaginedclub,
