@@ -1,12 +1,6 @@
 import './Portfolio.css';
 import { portfolio } from '../../Data';
 
-// ref web https://restaurant-website-capstone-teeking0007.vercel.app/
-// http://www.automatediscord.com/
-// https://www.buzymart.com/
-// https://weather-app-teeking0007.vercel.app/
-//https://www.reimaginedclub.com/
-
 
 const Portfolio = () => {
     
